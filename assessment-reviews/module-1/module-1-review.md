@@ -20,7 +20,7 @@ Some examples are:
 * nav element defines a set of navagation links, which are generally kept together anyways.
 * header element specifies the header for the page or document.
 * main element specifies the main content of the document.
-* article element specifies independent content.
+l* article element specifies independent content.
 
 ### Exercises
 
@@ -56,17 +56,17 @@ Some examples are:
 7. Inside of the code for the previous exercise, write the appropriate tag to link to a stylesheet file called `main.css`.
 *See Above*
 8. Write a numbered list in HTML and list three of your favorite books.
-
+[Link to code](http://jsbin.com/wobubiq/edit?html,output)
 9. Fix the indentation of the following HTML sample:
 
   ```html
   <div>
-  <ul>
-  <li>Item 1</li>
-    <li>Item 2</li>
-  <li>Item 3</li>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
     </ul>
-    </div>
+  </div>
   ```
 
 ## CSS
