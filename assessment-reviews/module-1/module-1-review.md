@@ -17,10 +17,10 @@
 3. What does it mean to write "semantic" HTML?
 **Semantic HTML** is used to show the browser the real "meaning" of the information rather than just using tags to define the look of the page.  
 Some examples are:
-1. nav element defines a set of navagation links, which are generally kept together anyways.
-2. header element specifies the header for the page or document.
-3. main element specifies the main content of the document.
-4. article element specifies independent content.
+* nav element defines a set of navagation links, which are generally kept together anyways.
+* header element specifies the header for the page or document.
+* main element specifies the main content of the document.
+* article element specifies independent content.
 
 ### Exercises
 
@@ -56,6 +56,7 @@ Some examples are:
 7. Inside of the code for the previous exercise, write the appropriate tag to link to a stylesheet file called `main.css`.
 *See Above*
 8. Write a numbered list in HTML and list three of your favorite books.
+
 9. Fix the indentation of the following HTML sample:
 
   ```html
