@@ -20,7 +20,7 @@ Some examples are:
 * nav element defines a set of navagation links, which are generally kept together anyways.
 * header element specifies the header for the page or document.
 * main element specifies the main content of the document.
-l* article element specifies independent content.
+* article element specifies independent content.
 
 ### Exercises
 
