@@ -11,17 +11,50 @@
 ### Questions
 
 1. What is HTML and what is it used for?
+**Hypertext Markup Language** is a programming language that is used for website creation and describes the structure of the webpages through markup.  HTML 5 especially has allowed us to organize everything on the site very clear and sectioned off.
 2. What is the difference between an ID and a class?
+**ID** is used for labeling or identifying one element, where **Classes** are typically used to label or identify numerous elements.
 3. What does it mean to write "semantic" HTML?
+**Semantic HTML** is used to show the browser the real "meaning" of the information rather than just using tags to define the look of the page.  
+Some examples are:
+1. nav element defines a set of navagation links, which are generally kept together anyways.
+2. header element specifies the header for the page or document.
+3. main element specifies the main content of the document.
+4. article element specifies independent content.
 
 ### Exercises
 
 1. Write a paragraph tag with a class of "highlight" and content "Watch out!".
+[Link to code](http://jsbin.com/fequmog/edit?html,css,output)
 2. Write an HTML image tag to show an image called `profile-picture.jpg`.
+[Link to code](http://jsbin.com/ruluhew/edit?html,output)
 3. Write a link tag that links to http://google.com.
+[Link to code](http://jsbin.com/jiyitoy/edit?html,output)
 5. Write an complete standard HTML document outline (including a DOCTYPE, and `<html>`, `<head>`, and `<body>` tags).
+```html
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="main.js"></script>
+  <title>Alexander Weitzner</title>
+  
+</head>
+<body>
+  <div>
+    <h2>About Me</h2>
+    <p>-----</p>
+  </div>
+</body>
+</html>
+```
+
 6. Inside of the code for the previous exercise, write the appropriate tag to link to a script file called `main.js`.
+*See Above*
 7. Inside of the code for the previous exercise, write the appropriate tag to link to a stylesheet file called `main.css`.
+*See Above*
 8. Write a numbered list in HTML and list three of your favorite books.
 9. Fix the indentation of the following HTML sample:
 
